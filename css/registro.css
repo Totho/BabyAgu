@@ -1,0 +1,17 @@
+#registro{
+	border-color: #232D33;
+	border: 3px;
+	text-align: center;
+}
+
+#registro-checkbottom{
+	display: none;
+}
+
+.formulario-registro{
+	transform: translateX(-100%);
+}
+
+#registro-checkbottom:checked ~ .formulario-registro {
+	transform: translateX(0%);
+}

@@ -1,0 +1,73 @@
+form{
+	width: 47%;
+	height: auto;
+	/*backgroud-image: url(aquí va la ruta de la imagen de fondo);*/
+	margin: 0 auto;
+	padding: 0 1%;
+	/*box-shadow: 5px 5px 0 #AAA;
+	border-radius: 5px;*/
+}
+
+body{
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 350px;
+	color: #333;
+}
+
+input{
+	width: 98%;
+	height: 30px;
+	font: 300 24px "Open Sans", Arial, sans-serif;
+	margin: 5px 0 10px 0;
+}
+
+input[type=submit]{
+	background-color:#FF9900;
+	height:50px;
+	width:98%;
+	/*border:none;*/
+	font-weight:400;
+	letter-spacing:2px;
+	color:#FFFFFF;
+}
+
+
+/* Por debajo de 1250px */
+/*@media screen and (max-width: 1280px){
+	h2{
+	font-size: 80px;
+	color: #FF9900;
+	text-shadow: 2px 2px #222;
+	font-family: "Open Sans";
+	border-bottom: 2px solid #FFF;
+	text-align: center;
+	margin: 0 0 5px 0;
+	}
+}*/
+
+/* Por debajo de 700px */
+/*@media screen and (max-width: 700px){
+	h2{
+	font-size: 60px;
+	color: #FF9900;
+	text-shadow: 2px 2px #222;
+	font-family: "Open Sans";
+	border-bottom: 2px solid #FFF;
+	text-align: center;
+	margin: 0 0 5px 0;
+	}
+}*/
+
+/* Por debajo de 400px */
+/*@media screen and (max-width: 400px){
+	h2{
+	font-size: 30px;
+	color: #FF9900;
+	text-shadow: 2px 2px #222;
+	font-family: "Open Sans";
+	border-bottom: 2px solid #FFF;
+	text-align: center;
+	margin: 0 0 5px 0;
+	}
+}*/
